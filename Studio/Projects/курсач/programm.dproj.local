@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.424,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\paint.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\about.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\sure.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.883,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.871,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.671,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.424,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\paint.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.427,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\main.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.520,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\pasteTemp.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.764,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\main1.dproj=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.973,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\main1.dproj=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\programm.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\sure.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.520,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\pasteTemp.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\about.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\sure.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.766,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.845,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.753,=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\sure.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\newTemp.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\newTemp.dfm=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.427,C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\курсач\main.pas=C:\Users\Izmenehy sama\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

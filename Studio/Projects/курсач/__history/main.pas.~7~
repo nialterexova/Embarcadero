@@ -1,0 +1,102 @@
+unit main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls, Vcl.ExtCtrls,
+  System.Actions, Vcl.ActnList, Vcl.StdActns, System.ImageList, Vcl.ImgList,
+  Vcl.Buttons, Vcl.ToolWin, Vcl.ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    Memo1: TMemo;
+    MainMenu1: TMainMenu;
+    fl: TMenuItem;
+    edit: TMenuItem;
+    settings: TMenuItem;
+    help: TMenuItem;
+    open: TMenuItem;
+    save_as: TMenuItem;
+    exit: TMenuItem;
+    cancel: TMenuItem;
+    cut: TMenuItem;
+    copy: TMenuItem;
+    paste: TMenuItem;
+    delete: TMenuItem;
+    find: TMenuItem;
+    select_all: TMenuItem;
+    about: TMenuItem;
+    OpenDialog1: TOpenDialog;
+    ActionList1: TActionList;
+    EditCut1: TEditCut;
+    EditCopy1: TEditCopy;
+    EditPaste1: TEditPaste;
+    EditSelectAll1: TEditSelectAll;
+    EditUndo1: TEditUndo;
+    EditDelete1: TEditDelete;
+    SearchFind1: TSearchFind;
+    ImageList1: TImageList;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    ControlBar1: TControlBar;
+    ToolBar1: TToolBar;
+    SaveButton: TToolButton;
+    ToolButton1: TToolButton;
+    CutButton: TToolButton;
+    CopyButton: TToolButton;
+    PasteButton: TToolButton;
+    ToolButton5: TToolButton;
+    SaveDialog1: TSaveDialog;
+    FileOpen: TAction;
+    OpenButton: TToolButton;
+    FileSaveAs: TAction;
+    procedure exitClick(Sender: TObject);
+    procedure aboutClick(Sender: TObject);
+    procedure FileOpen1BeforeExecute(Sender: TObject);
+    procedure FileOpenExecute(Sender: TObject);
+    procedure FileSaveAsExecute(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses about;
+
+procedure TForm1.aboutClick(Sender: TObject);
+begin
+AboutForm.ShowModal;
+end;
+
+procedure TForm1.exitClick(Sender: TObject);
+begin
+if Application.MessageBox(Pchar('Вы точно хотите выйти?'),Pchar('Выход'),MB_YESNO)=mrYES then Close();
+end;
+
+procedure TForm1.FileOpen1BeforeExecute(Sender: TObject);
+begin
+if OpenDialog1.Execute then Memo1.Lines.LoadFromFile(OpenDialog1.FileName);
+end;
+
+procedure TForm1.FileOpenExecute(Sender: TObject);
+begin
+if OpenDialog1.Execute then Memo1.Lines.LoadFromFile(OpenDialog1.FileName);
+Form1.Caption:=OpenDialog1.FileName;
+end;
+
+procedure TForm1.FileSaveAsExecute(Sender: TObject);
+begin
+if SaveDialog1.Execute then Memo1.Lines.SaveToFile(SaveDialog1.FileName);
+Form1.Caption:=OpenDialog1.FileName;
+end;
+
+end.

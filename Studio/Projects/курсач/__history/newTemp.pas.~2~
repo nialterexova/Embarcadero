@@ -1,0 +1,43 @@
+unit newTemp;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.ToolWin,
+  Vcl.ComCtrls;
+
+type
+  TnewForm = class(TForm)
+    Memo1: TMemo;
+    Panel1: TPanel;
+    Button1: TButton;
+    Label1: TLabel;
+    Edit1: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  newForm: TnewForm;
+
+implementation
+
+{$R *.dfm}
+
+procedure TnewForm.Button1Click(Sender: TObject);
+var F: TFileStream;
+begin
+   if Edit1.Text<>'' then
+   begin
+   F:=TFileStream.Create('c:\template\'+Edit1.Text+'.txt',fmCreate);
+   Close()
+   end
+   else MessageBox(handle,Pchar('¬ведите название шаблона'),Pchar('Error'), MB_OK);
+
+end;
+
+end.

@@ -1,0 +1,35 @@
+unit about;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TSureForm = class(TForm)
+    Label1: TLabel;
+    Button1: TButton;
+    ButtonClose: TButton;
+    procedure ButtonCloseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  SureForm: TSureForm;
+
+implementation
+
+{$R *.dfm}
+
+procedure TSureForm.ButtonCloseClick(Sender: TObject);
+begin
+Close();
+end;
+
+
+
+end.

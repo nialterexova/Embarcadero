@@ -1,0 +1,31 @@
+unit pasteTemp;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.FileCtrl;
+
+type
+  TpasteForm = class(TForm)
+    FileListBox1: TFileListBox;
+    procedure FileListBox1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  pasteForm: TpasteForm;
+
+implementation
+
+{$R *.dfm}
+
+procedure TpasteForm.FileListBox1Change(Sender: TObject);
+begin
+FileListBox1.Directory:='c:\template';
+end;
+
+end.
